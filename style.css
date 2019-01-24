@@ -1,0 +1,32 @@
+#div{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+article {
+    margin: 2px;
+    padding: 2px;
+    border-radius: 10px;
+    flex-direction: row;
+    display:flex;
+    flex-wrap:wrap;   
+}
+
+#articleOne{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    border-style: solid;
+    border-color: red;
+    flex: 1 0 25%;
+}
+
+
+#articleTwo{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    border-style: solid;
+    border-color:blue;
+    flex: 1 0 25%;
+}
